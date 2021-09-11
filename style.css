@@ -1,0 +1,61 @@
+#lineX, #frame{
+    stroke: indianred;
+    stroke-width: 2px;
+    fill: none;
+}
+
+.lineY{
+    stroke: indianred;
+    stroke-width: 2px;
+}
+
+.bar{
+    stroke: indianred;
+    stroke-width: 0.3px;
+    fill: mistyrose;
+}
+
+#lineXFilled,#lineYFilled{
+    fill: indianred;
+    stroke: lightslategrey;
+
+}
+
+circle{
+    fill: lightslategrey;
+    stroke: cadetblue;
+}
+
+body{
+    background: rgb(194,241,242);
+    background: linear-gradient(0deg, rgba(194,241,242,1) 0%, rgba(117,137,112,1) 100%);
+}
+h1{
+    font-family: "Impact";
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow:
+            5px 5px #024350,
+            10px 10px #000000;
+}
+
+h1:hover{
+    text-shadow:
+            5px 5px #910375,
+            10px 10px #000000;
+}
+
+.chartheader{
+    font-family: "Agency FB";
+    color: aliceblue;
+}
+
+.info{
+    font-family: "Agency FB";
+}
+
+.bar:hover{
+    fill: lightgrey;
+}
+
